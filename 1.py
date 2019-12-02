@@ -16,6 +16,7 @@ def main():
         inputs = f.readlines()
         sum = 0
         for input in inputs:
+            #change following to fuel_requirement for 1st solution
             sum += recursive_fuel_requirement(int(input))
     return sum
 
